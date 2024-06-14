@@ -1,0 +1,44 @@
+{
+  "name": "react-animated-gradient",
+  "version": "0.0.1",
+  "description": "Animate gradients in React without the hassle",
+  "scripts": {
+    "rollup": "rollup -c",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "author": "carlos-dubon",
+  "license": "MIT",
+  "devDependencies": {
+    "@chromatic-com/storybook": "1.5.0",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@storybook/addon-essentials": "^8.1.7",
+    "@storybook/addon-interactions": "^8.1.7",
+    "@storybook/addon-links": "^8.1.7",
+    "@storybook/addon-onboarding": "^8.1.7",
+    "@storybook/addon-webpack5-compiler-swc": "1.0.3",
+    "@storybook/blocks": "^8.1.7",
+    "@storybook/react": "^8.1.7",
+    "@storybook/react-webpack5": "^8.1.7",
+    "@storybook/test": "^8.1.7",
+    "@types/react": "^18.3.3",
+    "react": "^18.3.1",
+    "rollup": "^4.18.0",
+    "rollup-plugin-dts": "^6.1.1",
+    "storybook": "^8.1.7",
+    "tslib": "^2.6.3",
+    "typescript": "^5.4.5"
+  },
+  "type": "module",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "colord": "^2.9.3"
+  }
+}
