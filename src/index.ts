@@ -1,1 +1,1 @@
-export { AnimatedGradient } from "./AnimatedGradient";
+export { Gradient } from "./Gradient";
