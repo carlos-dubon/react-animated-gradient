@@ -32,21 +32,13 @@ export const Text = (props: TextProps) => {
 
   return (
     <div className={clsx(styles.text, props.className)}>
-      <svg style={
-        {
-          opacity: 0,
-          position: 'absolute',
-          zIndex: -999
-        }
-      } 
-      viewBox="0 0 1 1">
-  <defs>
-    <clipPath id="clip" clipPathUnits="objectBoundingBox">
-      <text x="0.5" y="0.5" font-size="0.22" text-anchor="middle" alignment-baseline="middle">OCEAN</text>
-    </clipPath>
-  </defs>
-</svg>
       <Gradient className={styles.gradient} currentGradient={colors[currentGradientIndex]} animationDuration={400}/>
+      <h2>
+        HOLA
+      </h2>
+      <h2 id="h2">
+        HOLA
+      </h2>
     </div>
   );
 };
