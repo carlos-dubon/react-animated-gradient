@@ -5,6 +5,8 @@ import React, {
   ReactNode,
   CSSProperties,
 } from "react";
+import styles from "./Gradient.module.css";
+import { clsx } from "clsx";
 import { hexArrayToRgbaArray } from "./util/hexArrayToRgbaArray";
 import { getBackground } from "./util/getBackground";
 import { colord } from "colord";
@@ -82,11 +84,9 @@ export const Gradient = (props: GradientProps) => {
 
   return (
     <div
-      className={props.className}
+      className={clsx(styles.gradient, props.className)}
       style={{
         ...props.style,
-        width: 500,
-        height: 500,
         background: getBackground(colors),
       }}
     >

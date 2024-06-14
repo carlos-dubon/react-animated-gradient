@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Gradient } from ".";
+import { Text } from "./Text";
 
 export const Example = () => {
   const colors = [
@@ -25,10 +26,15 @@ export const Example = () => {
   return (
     <div>
       <h2>Current Gradient: [{colors[currentGradientIndex].join(", ")}]</h2>
-      <Gradient
+      {/* <Gradient
         currentGradient={colors[currentGradientIndex]}
         animationDuration={400}
-      />
+        style={{
+          width:500,
+          height:500
+        }}
+      /> */}
+      <Text />
     </div>
   );
 };
