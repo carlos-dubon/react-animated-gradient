@@ -11,7 +11,7 @@ import { hexArrayToRgbaArray } from "./util/hexArrayToRgbaArray";
 import { getBackground } from "./util/getBackground";
 import { colord } from "colord";
 
-interface GradientProps {
+export interface GradientProps {
   currentGradient: string[];
   animationDuration: number;
   children?: ReactNode;

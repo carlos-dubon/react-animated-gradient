@@ -1,9 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { fn } from '@storybook/test';
 import { Gradient as GradientComponent } from '../Gradient';
+import type { GradientProps } from '../Gradient';
 
-// More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
-const meta = {
+const meta: Meta<GradientProps> = {
     title: 'Gradient',
     component: GradientComponent,
     parameters: {
@@ -25,5 +24,9 @@ export const Gradient: Story = {
     args: {
         currentGradient: ["#00dfd8", "#007cf0"],
         animationDuration: 400,
+        style: {
+            width: 300,
+            height: 300,
+        }
     },
 };

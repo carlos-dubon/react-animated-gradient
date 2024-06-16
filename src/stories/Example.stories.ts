@@ -1,5 +1,4 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Button } from './Button';
 import { Example as ExampleComponent } from '../Example';
 
 const meta = {
@@ -16,7 +15,7 @@ const meta = {
     // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/writing-docs/autodocs
     tags: ['autodocs'],
     // More on argTypes: https://storybook.js.org/docs/api/argtypes
-} satisfies Meta<typeof Button>;
+} satisfies Meta<typeof ExampleComponent>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
