@@ -1,9 +1,8 @@
-export const getBackground = (colorsParam: number[][]) => {
+export const getBackground = (colorsParam: number[][], angle: number) => {
     let background = "#ffffff";
 
     if (colorsParam && colorsParam.length > 1) {
-        // TODO: see what 165 is doing here
-        background = `linear-gradient(${165 + "deg,"}`;
+        background = `linear-gradient(${angle + "deg,"}`;
         colorsParam.forEach((item, key) => {
             background +=
                 `rgba(${item[0]},${item[1]},${item[2]},${item[3]})` +

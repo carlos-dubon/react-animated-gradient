@@ -1,7 +1,7 @@
 {
   "name": "react-animated-gradient",
-  "version": "0.0.1",
-  "description": "Animate gradients in React without the hassle",
+  "version": "1.0.0",
+  "description": "Animate gradients in React without the hassle.",
   "scripts": {
     "rollup": "rollup -c",
     "storybook": "storybook dev -p 6006",
@@ -43,5 +43,8 @@
   "dependencies": {
     "clsx": "^2.1.1",
     "colord": "^2.9.3"
+  },
+  "resolutions": {
+    "jackspeak": "2.1.1"
   }
 }

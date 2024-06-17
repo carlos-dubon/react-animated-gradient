@@ -12,8 +12,18 @@ import { getBackground } from "./util/getBackground";
 import { colord } from "colord";
 
 export interface GradientProps {
+  /**
+   * The current gradient colors in hex format.
+   */
   currentGradient: string[];
+  /**
+   * The duration of the animation in milliseconds.
+   */
   animationDuration: number;
+  /**
+   * The angle of the gradient.
+   */
+  angle?: number;
   children?: ReactNode;
   className?: string;
   style?: CSSProperties;
@@ -87,7 +97,7 @@ export const Gradient = (props: GradientProps) => {
       className={clsx(styles.gradient, props.className)}
       style={{
         ...props.style,
-        background: getBackground(colors),
+        background: getBackground(colors, props.angle ?? 165),
       }}
     >
       {props.children}

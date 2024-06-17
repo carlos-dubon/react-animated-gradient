@@ -1,38 +1,40 @@
 import React, { useEffect, useState } from "react";
 import { Gradient } from ".";
 
-export const Example = () => {
-  const colors = [
-    ["#00dfd8", "#007cf0"],
-    ["#ff0080", "#7928ca"],
-    ["#ff4d4d", "#f9cb28"],
-  ];
+const colors = [
+  ["#00dfd8", "#007cf0"],
+  ["#ff0080", "#7928ca"],
+  ["#ff4d4d", "#f9cb28"],
+];
 
-  const [currentGradientIndex, setCurrentGradientIndex] = useState(0);
+export const Example = () => {
+  const [index, setIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      if (currentGradientIndex === colors.length - 1) {
-        setCurrentGradientIndex(0);
+      if (index === colors.length - 1) {
+        setIndex(0);
       } else {
-        setCurrentGradientIndex(currentGradientIndex + 1);
+        setIndex((prev) => prev + 1);
       }
     }, 1000);
 
-    return () => clearInterval(interval);
-  }, [colors]);
+    return () => {
+      clearInterval(interval);
+    };
+  }, [index]);
 
   return (
-    <div>
-      <h2>Current Gradient: [{colors[currentGradientIndex].join(", ")}]</h2>
+    <>
+      <h2>Current Gradient: [{colors[index].join(", ")}]</h2>
       <Gradient
-        currentGradient={colors[currentGradientIndex]}
+        currentGradient={colors[index]}
         animationDuration={400}
         style={{
           width: 300,
           height: 300,
         }}
       />
-    </div>
+    </>
   );
 };

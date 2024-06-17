@@ -1,0 +1,26 @@
+<svg width="148" height="148" viewBox="0 0 148 148" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_403_2)">
+        <path
+            d="M74 148C114.869 148 148 114.869 148 74C148 33.1309 114.869 0 74 0C33.1309 0 0 33.1309 0 74C0 114.869 33.1309 148 74 148Z"
+            fill="url(#paint0_radial_403_2)" />
+        <path
+            d="M101.75 37H83.25C78.1414 37 74 41.1414 74 46.25V64.75C74 69.8586 78.1414 74 83.25 74H101.75C106.859 74 111 69.8586 111 64.75V46.25C111 41.1414 106.859 37 101.75 37Z"
+            fill="#141EFF" fill-opacity="0.4" />
+        <path
+            d="M83.25 55.5H64.75C59.6414 55.5 55.5 59.6414 55.5 64.75V83.25C55.5 88.3586 59.6414 92.5 64.75 92.5H83.25C88.3586 92.5 92.5 88.3586 92.5 83.25V64.75C92.5 59.6414 88.3586 55.5 83.25 55.5Z"
+            fill="#0CCC4D" fill-opacity="0.5" />
+        <path
+            d="M64.75 74H46.25C41.1414 74 37 78.1414 37 83.25V101.75C37 106.859 41.1414 111 46.25 111H64.75C69.8586 111 74 106.859 74 101.75V83.25C74 78.1414 69.8586 74 64.75 74Z"
+            fill="#FF7A00" />
+    </g>
+    <defs>
+        <radialGradient id="paint0_radial_403_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+            gradientTransform="translate(74 62.4375) rotate(90) scale(85.5625)">
+            <stop offset="0.169" stop-color="white" />
+            <stop offset="1" stop-color="#EAEAEA" />
+        </radialGradient>
+        <clipPath id="clip0_403_2">
+            <rect width="148" height="148" fill="white" />
+        </clipPath>
+    </defs>
+</svg>
