@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./logo.svg" width="70px" height="70px" alt="logo" />
+  <img src="https://raw.githubusercontent.com/carlos-dubon/react-animated-gradient/main/logo.svg" width="70px" height="70px" alt="logo" />
 </p>
 
 <h1 align="center">react-animated-gradient</h1>

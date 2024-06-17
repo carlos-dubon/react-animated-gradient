@@ -1,6 +1,6 @@
 {
   "name": "react-animated-gradient",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Animate gradients in React without the hassle.",
   "scripts": {
     "rollup": "rollup -c",
@@ -9,6 +9,17 @@
   },
   "author": "carlos-dubon",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carlos-dubon/react-animated-gradient"
+  },
+  "keywords": [
+    "react",
+    "gradient",
+    "gradients",
+    "animation",
+    "react-animated-gradient"
+  ],
   "devDependencies": {
     "@chromatic-com/storybook": "1.5.0",
     "@rollup/plugin-commonjs": "^26.0.1",
