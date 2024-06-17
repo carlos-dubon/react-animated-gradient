@@ -9,7 +9,9 @@
 </p>
 
 <p align="center" style="font-size: 1.2rem">
- Animate gradients in React without the hassle.
+<a href="https://react-animated-gradient.vercel.app/">
+ https://react-animated-gradient.vercel.app/
+</a>
 </p>
 
 <img
