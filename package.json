@@ -1,6 +1,6 @@
 {
   "name": "react-animated-gradient",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Animate gradients in React without the hassle.",
   "scripts": {
     "rollup": "rollup -c",
@@ -37,7 +37,8 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
-    "dist"
+    "dist",
+    "./logo.svg"
   ],
   "types": "dist/index.d.ts",
   "dependencies": {

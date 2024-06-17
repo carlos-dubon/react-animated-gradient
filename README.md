@@ -27,8 +27,6 @@
   alt="Pulls"
 />
 
-> Warning: This component uses the main thread to animate
-
 ## Installation
 
 ```bash
